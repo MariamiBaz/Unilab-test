@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Country Guide App</title>
+  
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+   
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./guide.css">
+  </head>
+  <body>
+    <header>
+      <input class="toggle" type="checkbox" id="toggle">
+    <nav>
+      
+      <a class="navbar-brand" href="./index.html"   >Tourist</a>
+     
+      <ul class="nav-list">
+        <li class="nav-item"><a href="./index.html" class="nav-link">HOME</a></li>
+        <li class="nav-item"><a href="#services" class="nav-link">OUR SERVICES</a></li>
+        <li class="nav-item"><a href="#egypt-background" class="nav-link">ABOUT US</a></li>
+        <li class="nav-item"><a href="#offers" class="nav-link">TOUR PACKAGE</a></li>
+        
+      </ul>
+      <label class="navbar-toggler" for="toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </label>
+    </nav>
+  </header>
+    <div class="container">
+      <div class="search-wrapper">
+        <input
+          type="text"
+          id="country-inp"
+          placeholder="Enter a country name here..."
+        />
+        <button id="search-btn">Search</button>
+      </div>
+      <div id="result"></div>
+    </div>
+    
+    <script src="guide.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
+
+
+

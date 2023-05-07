@@ -1,0 +1,253 @@
+
+
+
+
+@media only screen and (max-width: 1050px){
+
+  .carousel-caption h1 {
+    font-size: 24px;
+  }
+    section#services .left p ,.footer-subscribe button, .footer-subscribe input[type="email"] { 
+        font-size: 14px;
+      }
+      
+      .card {
+        width: 250px;}
+    
+     .users .card {
+            width: 250px;
+      }
+   
+  .destinations div.section-header p,h3   {
+            font-size: 14px;
+        }      
+        div.header-container header nav ul li a {
+        font-size: 12px;
+      }
+
+ .logo h3 {
+  font-size: 20px;
+ }
+
+ header .navbar-brand,  .destinations .section-header :first-child, #offers .section-header :first-child ,.destinations .section-header :last-child, #offers .section-header :last-child ,
+  div.footer-lower p , section.users div.middle div.card p ,section.users div.middle div.card h3, .footer-subscribe button, .footer-subscribe input[type="email"],
+  .services .left a, p, div.carousel-container h3 , footer div.footer-column h3 ,section.video div#egypt-background div#text p,div.discount-banner div.banner-content p , footer p, section#offers div.section-header p,section#offers h3,
+#services p , #services section.left p ,div.icons-container div.icon p ,section.users div.top div p:first-child , .users .top p:last-child,
+#services h3, section#offers p,h3 ,  section.users div.top div p:first-child , .users .top p:last-child , section.users div.bot button ,  footer .footer-upper .footer-subscribe h3
+{
+    font-size: 14px;}
+    nav ul.nav-list li.nav-item a.nav-link {
+      font-size: 8px;
+
+    }
+ header{
+  height: 50px;
+ }
+
+  }
+  @media only screen and (max-width: 920px){
+    header .navbar-brand {
+      font-size: 10px;
+    }
+  }
+
+@media only screen and (max-width: 875px) {
+
+  .destinations .card-image img , .users .card {
+    width: 300px;
+    height: 300px;
+  }
+
+  .offers-section .card .card-image {
+    height: 200px;
+  }
+  .carousel-container {
+    height:  400px;
+  }
+   
+   nav ul.nav-list li.nav-item  {
+    font-size: 12px;
+    display: grid;
+   }
+  .card {
+    width: 200px;}
+
+ .users .card {
+        width: 250px;
+  }
+
+
+ div.discount-banner div.banner-content h1 ,   section.users div.bot h1 , div.carousel-container h1{
+    font-size: 20px;
+  }
+ 
+   .destinations .section-header :first-child, #offers .section-header :first-child ,.destinations .section-header :last-child, #offers .section-header :last-child ,
+  div.footer-lower p , section.users div.middle div.card p ,section.users div.middle div.card h3, .footer-subscribe button, .footer-subscribe input[type="email"],
+  div.header-container header nav ul li a, .services .left a, p, div.carousel-container h3 , footer div.footer-column h3 ,section.video div#egypt-background div#text p,div.discount-banner div.banner-content p , footer p, section#offers div.section-header p,section#offers h3,
+#services p , #services section.left p ,div.icons-container div.icon p ,section.users div.top div p:first-child , .users .top p:last-child,
+#services h3, section#offers p,h3 ,  section.users div.top div p:first-child , .users .top p:last-child , section.users div.bot button ,  footer .footer-upper .footer-subscribe h3
+{
+    font-size: 12px;}
+
+  .footer-subscribe button, .footer-subscribe input[type="email"] {
+
+            font-size: 10px;
+          }
+
+        
+        .destinations div.section-header p,h3  {
+            font-size: 12px;
+        }
+      
+        nav ul.nav-list li.nav-item a.nav-link {
+          font-size: 8px;
+         display: grid;
+        }}
+      
+
+@media only screen and (max-width: 768px){
+  .destinations .card-image img, .users .card  {
+    height: 250px;
+  }
+  nav{
+    padding: 0 2 rem;
+  }
+  nav.nav-list .nav-item {
+    padding:  0 10px ;
+  }
+ 
+      .card {
+        width: 150px;}
+    
+     .users .card {
+            width: 250px;
+      }
+
+      div.discount-banner div.banner-content h1 ,   section.users div.bot h1 , div.carousel-container h1 , .carousel-caption h1  {
+        font-size: 18px;
+      }
+       .destinations .section-header :first-child, #offers .section-header :first-child ,.destinations .section-header :last-child, #offers .section-header :last-child ,
+      div.footer-lower p , section.users div.middle div.card p ,section.users div.middle div.card h3, .footer-subscribe button, .footer-subscribe input[type="email"],
+      div.header-container header nav ul li a, .services .left a, p, div.carousel-container h3 , footer div.footer-column h3 ,section.video div#egypt-background div#text p,div.discount-banner div.banner-content p , footer p, section#offers div.section-header p,section#offers h3,
+    #services p , #services section.left p ,div.icons-container div.icon p ,section.users div.top div p:first-child , .users .top p:last-child,
+    #services h3, section#offers p,h3 ,  section.users div.top div p:first-child , .users .top p:last-child , section.users div.bot button ,  footer .footer-upper .footer-subscribe h3
+    {
+        font-size: 10px;}
+
+      nav .nav-list {
+        display: grid;
+        position: absolute;
+        background: white;
+        width: 100%;
+        top :35px;
+        font-size: 8px;
+        left: 0;
+        transform:translateY(-100%);
+        z-index: -1;
+        transition:  .6s;
+      }
+
+      nav .nav-list .nav-item{
+        padding-left: 35px;
+        padding-bottom: 10px;
+      }
+      nav .navbar-toggler .bar {
+        background: black;
+      }
+ 
+      #my-video {
+        width: 300px;
+        height: 300px;
+      }
+
+      #egypt-background {
+        height: 340px;
+      }
+
+      .users {height: 70%;}
+
+      .icon a  {
+        font-size: 10px;
+      }.users .card img {
+        width: 50px;
+        height: 50px;
+      }
+      section.right .card img {
+        height: 100px;
+      }
+
+      .carousel-container {
+        height: 250px;
+      }
+
+      .google-map  {
+        height: 250px;
+      }
+      }
+
+      
+      
+    
+ 
+    
+
+
+
+@media only screen and (max-width: 650px) {
+    
+  .card {
+    width: 150px;}
+    div.discount-banner div.banner-content h1 ,   section.users div.bot h1 ,div.carousel-container h1  {
+        font-size: 16px;
+      }
+      
+      div.footer-lower p , section.users div.middle div.card p ,section.users div.middle div.card h3, .footer-subscribe button, .footer-subscribe input[type="email"],
+      div.header-container header nav ul li a, .services .left a, p, div.carousel-container h3 , footer div.footer-column h3 ,section.video div#egypt-background div#text p,div.discount-banner div.banner-content p , footer p, section#offers div.section-header p,section#offers h3,
+    #services p , #services section.left p ,div.icons-container div.icon p ,section.users div.top div p:first-child , .users .top p:last-child,
+    #services h3, section#offers p,h3 ,  section.users div.top div p:first-child , .users .top p:last-child , section.users div.bot button ,  footer .footer-upper .footer-subscribe h3
+    {
+        font-size: 8px;}
+      
+
+      .icon h3, p {
+        font-size: 10px;
+      }
+
+
+   
+      div.header-container header nav  {
+        display: flex;
+        justify-content: center;
+        align-items: center;}
+
+        nav .navbar-toggler .bar {
+          width: 20px;
+          height: 3px;
+        }
+        #my-video {
+          width: 200px;
+          height: 200px;
+        }
+        nav .navbar-toggler .bar {
+          height: 2px;
+          width: 15px;
+        }
+        .google-map  {
+          height: 200px;
+        }
+
+        .users {
+          height: 20%;
+        }
+        li.nav-item {
+          width: 80%;
+        }
+
+        nav {
+          width: 80%;
+        }
+      
+      
+      }
+
+    
